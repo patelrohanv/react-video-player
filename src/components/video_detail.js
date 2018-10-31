@@ -3,7 +3,7 @@ import React from 'react'
 // In general, if you don't need state and only data, use a functional component
 const VideoDetail = ( { video } ) => {
     if (!video) {
-        return <div>Loading...</div>
+        return <div>Loading... </div>
     }
     const videoId = video.id.videoId;
     const url = `http://youtube.com/embed/${videoId}`;
